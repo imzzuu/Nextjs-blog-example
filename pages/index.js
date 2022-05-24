@@ -12,7 +12,7 @@ export async function getStaticProps() {
     },
   };
 }
-
+// 메인 화면
 export default function Home({ allPostsData }) {
   return (
     <Layout home>
